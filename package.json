@@ -1,0 +1,25 @@
+{
+  "name": "2gis-api",
+  "description": "2GIS API for Node.js",
+  "author": "Alexander \"Staltec\" Prozorov <staltec@gmail.com>",
+  "url": "https://github.com/Staltec/2gis-api",
+  "keywords": [
+    "2gis",
+    "api",
+    "geo",
+    "search",
+    "map"
+  ],
+  "version": "0.1.1",
+  "main": "./lib/2gis-api",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.8.2"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "~2.4.1"
+  }
+}
