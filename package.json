@@ -10,7 +10,7 @@
     "search",
     "map"
   ],
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "./lib/2gis-api",
   "engines": {
     "node": ">= 0.10.0"

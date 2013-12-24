@@ -1,11 +1,10 @@
 # 2GIS API for Node.js
-========
 
 ## About module
 
 This module implements [API 2GIS](http://api.2gis.ru/doc/) calls for NodeJS. At the moment the following sections API:
-* [Catalog API](http://api.2gis.ru/doc/firms/quickstart/)
-* [Geo data API](http://api.2gis.ru/doc/geo/search/)
+* Catalog API
+* Geo data API
 
 ## Installation
 
@@ -20,7 +19,7 @@ This module implements [API 2GIS](http://api.2gis.ru/doc/) calls for NodeJS. At 
         serviceUrl: 'catalog.api.2gis.ru', // This is optional default path.
         version: 1.3, // This is optional default version.
 
-        key: 'YOUR_API_KEY' // Required.
+        key: 'YOUR_API_KEY' // Required. Get it from the vendor.
     });
 
     api.projectList({}, function (err, data) {
