@@ -1,5 +1,5 @@
 var api = require ('../lib/2gis-api');
-var apiKey = require ('../api-key.json').key;
+var apiKey = 'your_api_key';
 var apiVersion = 1.3;
 
 api.configure({
