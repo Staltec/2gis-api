@@ -16,8 +16,8 @@ This module implements [API 2GIS](http://api.2gis.ru/doc/) calls for NodeJS. At 
     var api = require ('2gis-api');
 
     api.configure({
-        serviceUrl: 'catalog.api.2gis.ru', // This is optional default path.
-        version: 1.3, // This is optional default version.
+        serviceUrl: 'catalog.api.2gis.ru', // This is default path.
+        version: 1.3, // This is default version.
 
         key: 'YOUR_API_KEY' // Required. Get it from the vendor.
     });
@@ -34,7 +34,20 @@ This module implements [API 2GIS](http://api.2gis.ru/doc/) calls for NodeJS. At 
     });
 
 ```
-Important! To obtain the API-key necessary to fill in the [application form](http://partner.api.2gis.ru/).
+
+## Configuration
+
+The method `configure` allows to set the parameters common to all queries. It is convenient to use for the parameters:
+
+### "key"
+Unique user API-key. Required parameter. To obtain the API-key necessary to fill in the [application form](http://partner.api.2gis.ru/).
+
+### "version"
+Indicates the version of API, with which we are working. The default value is `1.3`.
+
+### "serviceUrl"
+API service URL. Parameter is not included in the query. The default value is `catalog.api.2gis.ru`.
+
 
 ## Catalog API
 
